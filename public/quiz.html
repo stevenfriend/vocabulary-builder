@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="icon" href="data:,">
+    <title>Vocabulary Quiz</title>
+  </head>
+  <body>
+    <main id="content">
+      <section id="menu">
+        <h1 id="title">Vocabulary Quiz</h1>
+        <div id="menu-options">
+          <div id="questions">
+            <h2 class="menu-heading">questions<h2>
+            <div id="questions-input">
+              <div>2</div>
+              <div>0</div>
+            </div>
+          </div>
+          <div id="time">
+            <h2 class="menu-heading">time<h2>
+              <div id="time-input">
+                <div>0</div>
+                <div>3</div>
+                <div>:</div>
+                <div>0</div>
+                <div>0</div>
+              </div>
+          </div>
+        </div>
+        <div id="start">START</div>
+      </section>
+      <section id="quiz">
+        <div id="top-panel">
+          <div id="left-panel">
+            <div id="score">00</div> 
+          </div>
+          <div id="question"></div>
+          <div id="right-panel">
+            <div id="timer">03:00</div> 
+          </div>
+        </div>
+        <div id="bottom-panel">
+          <div class="option"></div>
+          <div class="option"></div>
+          <div class="option"></div>
+          <div class="option"></div>
+        </div>
+      </section>
+      <section id="end-card" class="raised">
+        <div id="end-message"></div>
+        <div id="replay">REPLAY</div>
+      </section>
+      <svg class="feedback" id="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r="40"/>
+      </svg>
+      <svg class="feedback" id="cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <line x1="10" y1="10" x2="90" y2="90"/>
+        <line x1="10" y1="90" x2="90" y2="10"/>
+      </svg>
+    </main>
+    <script src="scripts/quiz.js"></script>
+  </body>
+</html>

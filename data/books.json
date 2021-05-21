@@ -1,0 +1,10 @@
+{
+  "books": [
+    { "title": "Let's Go 1", "value": "lg1" },
+    { "title": "Let's Go 2", "value": "lg2" },
+    { "title": "Let's Go 3", "value": "lg3" },
+    { "title": "Let's Go 4", "value": "lg4" },
+    { "title": "Let's Go 5", "value": "lg5" },
+    { "title": "Let's Go 6", "value": "lg6" }
+  ]
+}
