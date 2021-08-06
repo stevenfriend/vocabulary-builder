@@ -66,7 +66,7 @@ function resetQuiz() {
   score = 0;
   scoreBoard.innerText = '00';
   review = [];
-  questions = allQuestions.map((x) => x);;
+  questions = allQuestions.map((x) => x);
   ended = false;
   requestAnimationFrame(initializeTimer);
   handleNext();
